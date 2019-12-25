@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#424242;
+    width: 1024px;
+    height: 300px;
+    font-family: Helvetica;
+    padding: 5% 7%;
+}
+
+.headerLogo{
+    display: flex;
+    width: 117px;
+    height: 117px;
+}
+
+.input{
+    display:inline-block;
+    justify-content: center;
+    font-size: 18px;
+    color: #FFD366;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.inputWeight{
+    width: 250px;
+    height: 40px;
+    background: rgba(255,255,255,0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    font-size: 24px;
+    color: rgba(255,255,255,0.50);
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.inputWeight:focus {
+    outline: none;
+}
+
+.result-btn{
+    display: flex;
+    background-color: #FFD366;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+}
+h2{
+    font-size: 24px;
+    color: #424242;
+    font-family: Helvetica;
+    width: 1024px;
+    text-align: center;
+}
+
+.container {
+    height: calc(100vh - 90px - 300px);
+    overflow: auto;
+    background:#DDDADC;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+/* List Style For BMI Info */
+
+.container h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.bmi-result {
+    margin-top: 10px;
+}
+
+.bmi-result li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.list-info{
+    padding: 15px 10px;
+    width: 624px;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.remove {
+    display: block;
+    background: #FFD366;
+    color: black;
+    font-size: 14px;
+    border-radius: 10px;
+    max-width: 250px;
+    max-height: 40px;
+    padding:4px 16px;
+    outline: none;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.footerLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #424242;
+    width: 1024px;
+    height: 90px;
+}
+
+
+/* Weight Status */
+
+.overWeight{
+    float: left;
+    background: #FF1200;
+    box-shadow: 2px 0 3px 0 rgba(255,17,0,0.29);
+    width: 7px;
+    height: 62px;
+
+}
+.fat{
+    float: left;
+    background: #FF6C02;
+    box-shadow: 2px 0 3px 0 rgba(255,108,2,0.29);
+    width:7px;
+    height: 62px;
+
+}
+.heavy{
+    float: left;
+    background: #FF6C02;
+    box-shadow: 2px 0 3px 0 rgba(255,108,2,0.29);
+    width:7px;
+    height: 62px;
+
+}
+.littleHeavy{
+    float: left;
+    background: #FF982D;
+    box-shadow: 2px 0 3px 0 rgba(255,152,45,0.29);
+    width:7px;
+    height: 62px;
+
+}
+.ideal{
+    float: left;
+    background: #86D73F;
+    box-shadow: 2px 0 3px 0 rgba(133,215,63,0.29);
+    width:7px;
+    height: 62px;
+
+}
+.skinny{
+    float: left;
+    background-color: #31BAF9;
+    box-shadow: 2px 0 3px 0 rgba(49,186,249,0.29);
+    width:7px;
+    height: 62px;
+
+}
+
+
+.footerLogo img{
+    width: 55px;
+    height: 55px;
+
+}

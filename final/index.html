@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="./style/reset.css" type="text/css" rel="stylesheet" />
+    <link href="./style/style.css" type="text/css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body class="background">
+    <nav class="header">
+      <div class="headerLogo">
+        <img src="./img/BMICLogo.png" />
+      </div>
+      <div class="input">
+        <label for="tall">身高 cm</label>
+        <input
+          id="tall"
+          class="inputWeight"
+          type="number"
+          placeholder="請輸入身高"
+        />
+        <label for="weight">體重 kg</label>
+        <input
+          id="weight"
+          class="inputWeight"
+          type="number"
+          placeholder="請輸入體重"
+        />
+      </div>
+      <button class="result-btn">
+        看結果
+      </button>
+    </nav>
+    <main>
+      <div class="container">
+        <h2>BMI紀錄</h2>
+        <ul class="bmi-result"></ul>
+        <button class="remove">清除記錄</button>
+      </div>
+    </main>
+    <footer>
+      <div class="footerLogo">
+        <img src="./img/BMICLogo.png" />
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
