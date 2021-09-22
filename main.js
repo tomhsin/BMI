@@ -27,6 +27,7 @@ removeButton.addEventListener('click', function() {
 
 // 監聽 Input 欄位改變，並存取值
 heightInput.addEventListener('change', function(event) {
+  consolge.log(event.target.value)
   if(event.target.value<1){
     heightValue = 0
     return
@@ -37,6 +38,7 @@ heightInput.addEventListener('change', function(event) {
 
 // 監聽 Input 欄位改變，並存取值
 weightInput.addEventListener('change', function(event) {
+  consolge.log(event.target.value)
   if(event.target.value<1){
     weightValue = 0
     return
