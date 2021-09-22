@@ -27,12 +27,22 @@ removeButton.addEventListener('click', function() {
 
 // 監聽 Input 欄位改變，並存取值
 heightInput.addEventListener('change', function(event) {
+  if(event.target.value<1){
+    heightValue = 0
+    return
+  }else{
   heightValue = event.target.value
+  }
 })
 
 // 監聽 Input 欄位改變，並存取值
 weightInput.addEventListener('change', function(event) {
+  if(event.target.value<1){
+    weightValue = 0
+    return
+  }else{
   weightValue = event.target.value
+  }
 })
 
 // 先執行更新，避免 localStorage 有資料無更新的情況
